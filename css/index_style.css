@@ -1,0 +1,77 @@
+body{
+    background-image: url("../img/bg.gif");
+    background-size: 100%;
+} 
+body, html { 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    cursor: default;
+}
+
+.bgimg {
+    border: 0;
+    padding: 0; 
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#game_menu{
+    display: flex;
+    justify-content: center;
+}
+
+.GI{
+    margin: 0 70px 0 70px;
+}
+
+#main_logo{
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.GI{
+    position: relative;
+    width: 360px;
+    height: 440px;
+    box-shadow: 20px 20px rgb(77, 77, 177);
+}
+
+.GI > img {
+    width: 350px;
+    height: 430px;
+    border: solid;
+}
+
+ .GI:hover {
+    transform: scale(1.5);
+}
+
+
+.up {
+    background-color: cadetblue;
+    opacity: 60%;
+    position: absolute;
+    top: 0%;
+    width: 430px;
+    height: 530px;
+}
+
+
+
+.up {
+    transform: translateY(100%);
+    transition: all .5s ease-out;
+}
+
+.up:hover {
+    visibility: visible;
+    opacity: 50%;
+    transform: translateY(0%);
+}
